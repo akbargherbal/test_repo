@@ -5,7 +5,7 @@ def time_now():
     '''Get Current Time'''
     
     now = datetime.now()
-    current_time = now.strftime("%H:%M:%S.%f")
+    current_time = now.strftime("%H:%M:%S")
     print("Current Time =", current_time)
     return now
 
